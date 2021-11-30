@@ -1,15 +1,15 @@
 /*
-  Blink
-
   November 29th, 2021
   TEJ3M1 Unit 2-03
   Aidan Lalonde-Novales
+  
+  Turns an LED on a breadboard on for one second, then off for one second, then adds half a second to how long it's on for.
 */
 
 int blinkTime = 1000;   //sets the variable to 1000ms or 1 second
 
 void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
+  // initialize digital pin 13 as an output.
   pinMode(13, OUTPUT);
 }
 
